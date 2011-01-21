@@ -1,8 +1,9 @@
 #FW
-A simple javascript framework.
-- object extension, including itself
-- object cloning
-- type checks
+A ripoff javascript framework.
+
+• object extension, including itself, thx jQuery
+• object cloning
+• utility checks, thx underscore.js
 	- isElement 
 	- isArguments
 	- isFunction 
