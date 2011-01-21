@@ -3,11 +3,11 @@
 FW is a object for storage 
 
 ##Extend
-	  FW.extend({ ajax: {} }); // Adds or modifies FW.ajax
-    FW.extend({}, {enable: true}); // Extends first object, with the next, returns a merged object with the latest values for all keys
+	  FW.extend({ ajax: {} }); // Returns extended FW
+    FW.extend({}, {enable: true}); // Returns merged object
 
 ##Clone
-	var AW = FW.clone(FW); // Returns AW a clone of FW, not linked to it.
+	var AW = FW.clone(FW); // Returns a clone of FW
 
 ##Utils
 	FW.utils.isElement(obj) 
