@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>FW</title>
-	</head>
-	<body>	
-	<script src="src/core.js" type="text/javascript" charset="utf-8"></script>
-	
-	</body>
+  <head>
+    <title>FW</title>
+  </head>
+  <body>  
+    <script src="src/core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="src/cookie.js" type="text/javascript" charset="utf-8"></script>
+    <script src="src/log.js" type="text/javascript" charset="utf-8"></script>
+  
+    <script type="text/javascript" charset="utf-8">  
+    var log = FW.log;
+
+       log.group('test');
+         FW.each([1,2,3,4,5,6,7,8,9,10], function(a,b,c){
+           log.print(a,b,c);
+         });
+       log.group('test');
+
+    </script>
+  
+  </body>
 </html>
