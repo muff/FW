@@ -1,6 +1,6 @@
 #FW
 ##A ripoff javascript framework.
-FW is a object for storage 
+FW is a object for storage and extension
 
 ##Extend
 	  FW.extend({ ajax: {} }); // Returns extended FW
@@ -10,19 +10,19 @@ FW is a object for storage
 	var AW = FW.clone(FW); // Returns a clone of FW
 
 ##Utils
-	FW.utils.isElement(obj) 
-	FW.utils.isArguments(obj)
-	FW.utils.isFunction(obj) 
-	FW.utils.isString(obj) 
-	FW.utils.isNumber(obj) 
-	FW.utils.isNaN(obj) 
-	FW.utils.isBoolean(obj)
-	FW.utils.isArray(obj) 
-	FW.utils.isDate(obj)
-	FW.utils.isRegExp(obj)
-	FW.utils.isNull(obj)
-	FW.utils.isUndefined(obj)
-	FW.utils.isEmpty(obj)
-	FW.utils.isObject(obj)
-	FW.utils.inArray(what, where)
+	FW.is.element(obj) 
+	FW.is.arguments(obj)
+	FW.is.function(obj) 
+	FW.is.string(obj) 
+	FW.is.number(obj) 
+	FW.is.naN(obj) 
+	FW.is.boolean(obj)
+	FW.is.array(obj) 
+	FW.is.date(obj)
+	FW.is.regExp(obj)
+	FW.is.null(obj)
+	FW.is.undefined(obj)
+	FW.is.empty(obj)
+	FW.is.object(obj)
+	FW.inArray(what, where)
  

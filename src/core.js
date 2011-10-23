@@ -4,6 +4,7 @@
   Purpose:  Framework core functionality   
 */
 var FW = (function (window, undefined) {
+  "use strict";
   // All **ECMAScript 5** native function implementations that we hope to use
   // are declared here.
   var ArrayProto = Array.prototype,
@@ -25,6 +26,7 @@ var FW = (function (window, undefined) {
     slice = [].slice,
     push = [].push,
     idCounter = 0;
+    
   var uniqueId = function (prefix) {
       var id = idCounter++;
       return prefix ? prefix + id : id;
